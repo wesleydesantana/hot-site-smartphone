@@ -8,80 +8,72 @@ h1,h2,h3{
 .navbar{
     border-radius: 0px;
     text-transform: uppercase;
+}
 
-  }
+.nav {
+    padding: 10px;
+}
 
-  .nav {
-      padding: 10px;
-  }
-
-  .navbar-header{
-    padding: 5px;
-  }
+.navbar-header{
+padding: 5px;
+}
 
 .navbar-inverse {
 
 }
 
-  #inicio{
-      /* e isso*/
-      background-image: url('../img/iphone.jpeg');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      height: 800px;
-      
-  }
-  .jumbotron{
-      margin: 0;
-      height: auto;
-  }
-  main{
-      margin-top: 50px;
+#inicio{
+    /* e isso*/
+    background-image: url('img/iphone.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    
+}
+main{
+    margin-top: 50px;
+
+}
   
-  }
+#produtos{
+background-color: #c64e25;
+color: white;
+padding: 1em;
+}
   
-  #produtos{
-    background-color: #c64e25;
-    color: white;
-    padding: 1em;
-  }
-  
-  #servicos{
-    background-color: #eee;
-    padding: 1em;
-  }
+#servicos{
+background-color: #eee;
+padding: 1em;
+}
 
  
 
-  #promocoes{
-    background-color:#c64e25;
+#promocoes{
+background-color:#c64e25;
+color: white;
+padding: 1em;
+}
+
+
+#inputEmail{
+
+}
+
+form{
+    width: 500px; margin: 0 auto;
+}
+
+footer{
     color: white;
-    padding: 1em;
-  }
+    background-color: black;
+    padding: 20px 20px;
+}
 
-  #contato{
-
-  }
-  #inputEmail{
-    width: 600px;
-  }
-
-  footer{
-      color: white;
-      background-color: black;
-      padding: 20px 20px;
-  }
-
-  input{
-      margin: 1em;
-      border: none;
-  }
-
-  form{
-      margin: 0 auto;
-      display: block;
-  }
+input{
+    margin: 1em;
+    border: none;
+}
 
 .form-control{
       border-radius: 0px;
@@ -94,15 +86,12 @@ h1,h2,h3{
     width: 50px;
 }
 
-.form-inline{
-    padding: 0;
-    margin: 0;
-}
-/*estudar isso*/
-  @media only screen and (max-width: 768px) {
-        #inicio{
-            height: 400px;
-            
-        }
 
+/*estudar isso*/
+@media only screen and (max-width: 768px) {
+    #inicio{
+        height: 400px;
+        
     }
+
+}
