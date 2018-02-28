@@ -25,7 +25,7 @@ h1,h2,h3{
 
   #inicio{
       /* e isso*/
-      background-image: url('img/iphone.jpeg');
+      background-image: url('../img/iphone.jpeg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
