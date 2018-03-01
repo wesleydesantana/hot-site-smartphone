@@ -120,7 +120,16 @@ footer{
     border-color: #ff3d00;
 }
 
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #fff;
+    border-color: #ff3d00;
+}
+
 .navbar-inverse .navbar-toggle {
+    border-color: #ff3d00;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: #ff3d00;
 }
 /*estudar isso*/
