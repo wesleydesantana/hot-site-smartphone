@@ -77,8 +77,8 @@ padding: 1em;
 }
 
 
-#inputEmail{
-
+input{
+    margin-bottom: 10px;
 }
 
 form{
