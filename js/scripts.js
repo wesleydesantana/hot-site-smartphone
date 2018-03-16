@@ -16,5 +16,8 @@
 
 
 
-
-
+$(function() {  
+  $("body").niceScroll({
+    scrollspeed : 100
+  });
+});
