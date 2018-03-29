@@ -17,9 +17,9 @@
 
 
 $(function() {  
-  $("body").niceScroll({
-    scrollspeed : 100
-  });
+  // $("body").niceScroll({
+  //   scrollspeed : 100
+  // });
 });
 
 var TxtType = function(el, toRotate, period) {
