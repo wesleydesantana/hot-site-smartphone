@@ -133,6 +133,15 @@ footer{
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: #ff3d00;
 }
+
+.app-svgs{
+    width: 100%;
+  text-align: center
+}
+
+.app-svgs img{
+    text-align: center
+}
 /*estudar isso*/
 @media only screen and (max-width: 768px) {
     #inicio{
