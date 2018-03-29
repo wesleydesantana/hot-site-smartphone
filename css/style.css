@@ -62,10 +62,10 @@ padding: 5px;
 
 .center{
     margin: 0;
-   position: absolute;               /* 2 */
+   position: absolute;              
    top: 50%;
-   left: 35%;                         /* 3 */
-   transform: translate(0, -50%) }   /* 4 */
+   left: 35%;                         
+   transform: translate(0, -50%) } 
 
 
 .typewrite{
@@ -173,6 +173,21 @@ footer{
     }
     form{
         width: 300px;
+    }
+
+    .center{
+        margin: 0;
+       position: absolute;              
+       top: 50%;
+       left: 25%;                         
+       transform: translate(0, -50%) } 
+       .typewrite{
+        color: #ff3d00;
+        font-size: 30px;
+    }
+
+    h1{
+        font-size: 25px;
     }
     
 }
