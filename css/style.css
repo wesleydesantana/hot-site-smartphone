@@ -52,15 +52,32 @@ padding: 5px;
 
 #inicio{
     /* e isso*/
-    background-image: url('../img/iphone-banner.jpg');
+    background-image: url('../img/coffee-cup-drink-162593.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 800px;
+    position: relative;
 }
+
+.center{
+    margin: 0;
+   position: absolute;               /* 2 */
+   top: 50%;
+   left: 35%;                         /* 3 */
+   transform: translate(0, -50%) }   /* 4 */
+
+
+.typewrite{
+    color: #ff3d00;
+    font-size: 80px;
+}
+.typewrite:hover{
+    color: #080808;
+}
+
 main{
     margin-top: 50px;
-
 }
   
 #produtos{
